@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script type="text/javascript">
+
+        var textT = function testF(){
+            console.log("Hello World")
+        }
+
+
+        function secondFunc(callback) {
+          callback()
+
+        }
+
+        secondFunc(textT);
+
+    function printHello() {
+        console.log("hello world");
+
+    }
+
+
+        function callee(callback1){
+            callback1()
+        }
+    console.log(printHello)
+
+
+    var vehicle ={name:"Car",color:"Red" , type:"Toyota"}
+
+    console.log(vehicle.type)
+        console.log(vehicle.color)
+
+        var myJSON = JSON.stringify(vehicle)
+        console.log(myJSON)
+
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
